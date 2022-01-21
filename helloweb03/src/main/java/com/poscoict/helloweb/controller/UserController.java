@@ -44,7 +44,7 @@ public class UserController {
 			@RequestParam(value = "a", required = true, defaultValue="0") Integer age) {
 		System.out.println("----"+ name + "----");
 		System.out.println("----"+ age + "----");
-		return "UserController.update2():";
+		return "UserController.update2():"+ name + age;
 	}
 	
 }
